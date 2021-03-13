@@ -16,8 +16,9 @@ public class Kalendator extends Application {
         Scene scene = new Scene(root);
         scene.getStylesheets().add(getClass().getResource("styles.css").toExternalForm());
 
-        stage.setTitle("JavaFX and Gradle");
+        stage.setTitle("Kalendator");
         stage.setScene(scene);
+        stage.setMaximized(true);
         stage.show();
     }
 
